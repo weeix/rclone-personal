@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Wee’s Personal rclone, a personal-use Google Drive OAuth client.">
+  <title>Privacy policy · Wee’s Personal rclone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header><a href="./">← Application home</a><h1>Privacy policy</h1><p class="intro">Wee’s Personal rclone</p><p>Effective date: November 12, 2026</p></header>
+    <section><h2>1. Operator and scope</h2><p>Wee’s Personal rclone is operated by <a href="https://github.com/weeix">Wee (weeix)</a> exclusively for the operator’s own Google Drive file transfers, syncing, and backups using rclone. It is not a service offered to other users. This policy covers the personal OAuth client and this informational website.</p></section>
+    <section><h2>2. Information accessed</h2><p>When the operator authorizes the application through Google, rclone receives OAuth credentials that permit the access granted by the operator. Depending on the configured scopes and operations, rclone may access Drive file contents and metadata, including file names, identifiers, folder structures, sizes, and modification times. It may also export Google Workspace documents.</p><p>Permissions may allow listing, reading, downloading, uploading, creating, modifying, and deleting files. Actual access depends on the scopes granted and the commands the operator runs. Google handles account authentication; this website does not ask for or receive a Google password.</p></section>
+    <section><h2>3. How information is used</h2><p>Google user data is used only to carry out file-management, synchronization, and backup operations requested or configured by the operator. Data is not used for advertising, profiling, sale, or training machine-learning or AI models.</p><p>Use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p></section>
+    <section><h2>4. Storage and security</h2><p>OAuth tokens are stored in the operator’s rclone configuration on the devices or systems where rclone is installed. Files and backups may be stored on local disks or destinations selected by the operator. Logs may contain file names, paths, or operational metadata, depending on the logging settings.</p><p>The operator is responsible for access controls, protecting configuration files and backups, and choosing appropriate encryption and logging settings. This website and its public source repository do not store OAuth credentials or Drive files. No security measure can guarantee absolute protection.</p></section>
+    <section><h2>5. Sharing and transfers</h2><p>The operator does not sell Google user data or share it for advertising. Transfers occur only as needed to perform the operator’s configured operations, such as copying a file to a selected storage provider. Those providers process transferred data under their own terms and privacy policies. The application does not make Drive data publicly available by default.</p></section>
+    <section><h2>6. Retention, deletion, and revocation</h2><p>Local files, backups, logs, and configuration remain until the operator deletes them or a configured retention policy removes them. To stop future access, remove the application’s authorization from <a href="https://myaccount.google.com/connections">Google Account connections</a> and remove the relevant credentials from the rclone configuration.</p><p>Revoking access does not delete files or backups already transferred. The operator must delete those separately from each destination, along with any retained logs or credentials as appropriate.</p></section>
+    <section><h2>7. Website hosting</h2><p>This is a static website hosted on GitHub Pages. It contains no application-added analytics, tracking scripts, cookies, forms, or sign-in features. GitHub may process technical request information when serving the site under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Following external links is subject to the destination’s policies.</p></section>
+    <section><h2>8. Contact and changes</h2><p>Privacy questions or deletion-related inquiries can be submitted through <a href="https://github.com/weeix/rclone-personal/issues">the repository’s GitHub Issues page</a>. Issues are public; never include secrets, OAuth tokens, private files, or sensitive personal information. If this policy changes, the updated policy and effective date will be published here.</p></section>
+    <footer><a href="./">Application home</a> · <a href="https://github.com/weeix/rclone-personal/issues">Contact</a></footer>
+  </main>
+</body>
+</html>
